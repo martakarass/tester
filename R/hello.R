@@ -16,7 +16,7 @@
 hello <- function(x,
                   multiply.by.vec = c(1:100),
                   run.parallel = FALSE,
-                  run.parallel.cores = NULL) {
+                  run.parallel.cores = 2) {
   v <- NULL ## To please R CMD check
 
   # https://github.com/r-lib/devtools/issues/1714
@@ -27,7 +27,7 @@ hello <- function(x,
   print(run.parallel.cores)
 
   # globalVariables(c("v"))
-  plan(multiprocess)
+  plan(multiprocess, workers = run.parallel.cores)
   v %<-% {
     cat("Hello world!\n")
     3.14

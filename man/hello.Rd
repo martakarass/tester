@@ -5,7 +5,7 @@
 \title{Title}
 \usage{
 hello(x, multiply.by.vec = c(1:100), run.parallel = FALSE,
-  run.parallel.cores = NULL)
+  run.parallel.cores = 2)
 }
 \arguments{
 \item{x}{Lorem Ipsum is simply dummy text of the printing and typesetting}
