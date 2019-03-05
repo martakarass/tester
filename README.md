@@ -1,6 +1,6 @@
 # tester
 
- [![Travis build status](https://travis-ci.org/martakarass/tester.svg?branch=master)](https://travis-ci.org/martakarass/tester)
+ [![Travis build status](https://travis-ci.com/martakarass/tester.svg?branch=master)](https://travis-ci.com/martakarass/tester)
  [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/martakarass/tester?branch=master&svg=true)](https://ci.appveyor.com/project/martakarass/tester)
  
 
