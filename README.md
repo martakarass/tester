@@ -1,6 +1,6 @@
 # tester
 
-The goal of tester is to ...
+The goal of tester is to ... foo 
 
 ## Installation
 
